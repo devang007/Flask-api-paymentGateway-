@@ -1,6 +1,7 @@
 # Flask-api-paymentGateway-
 #Payment Details Validation rules
-#1) Credit card number
+
+1) Credit card number
 
 -validation includes
 
