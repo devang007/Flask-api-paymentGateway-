@@ -23,3 +23,11 @@ Test cases :
 -123 (Accepts)
 
 -----------------------------------------------------------
+# Payment gateway
+
+-To check weather all the gateways are active or busy there is random integer genarator.
+-If amount is less than 20 it will get proceed with cheap gateway , if gateway is busy it will return 0 otherwise 1.
+-If amount is between 21-500 it will get proceed with expensive gateway , if gateway is busy it will try to proceed with cheap gateway  0 otherwise 1.
+-If amount is greater than 500  it will get proceed with premium gateway , if gateway is busy it will refresh for 3 times and 
+ return 0 otherwise 1.
+ 
