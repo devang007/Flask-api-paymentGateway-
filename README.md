@@ -1,6 +1,6 @@
 # Flask-api-paymentGateway-
 #Payment Details Validation rules
-1) Credit card number
+#1) Credit card number
 
 -validation includes
 
@@ -10,7 +10,7 @@
 -American Express (length 15, prefix 34 or 37)
 -All 16 digit formats accept optional hyphens (-) between each group of four digits.
 
--Limitation 
+#Limitation 
 
 4444-4444-4444-4444 where it starts with 4 which determines it as a visa card but there is no other number in it
 
@@ -20,7 +20,7 @@
 -It should have atleast two letter in name and surname
 -It can include { . , ' }
 
--Limitation
+#Limitation
 Person can enter Example : aaaa aaaa or abc abc 
 
 3) Expiration date 
