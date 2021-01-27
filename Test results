@@ -1,0 +1,25 @@
+Test cases :
+
+1) Credit card number
+-4123-1234-5432-1234 (Accepts)
+-1111-1111-1111-1111 (Rejects)
+-0000-0000-0000-0000 (Rejects)
+-1234-1234-1234-1234 (Rejects)
+
+2) Card holder name
+- Devang chavda         (Accepts)
+- martin lutherking jr. (Accepts)
+- de nova               (Accepts)
+- Robert d'niro         (Accepts)
+- a a                   (Rejects)
+
+4) Expiry date
+
+-11/22 (Accepts)
+-00/00 (Rejects)
+-00/07 (Rejects)
+
+5) Security code
+-123 (Accepts)
+
+-----------------------------------------------------------
